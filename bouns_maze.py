@@ -5,7 +5,7 @@ def base_converter (dec, base):
     s=Stack()
 
     while dec!=0:
-        if base>16 or base<2: //若base輸入值不符合範圍，輸出error
+        if base>16 or base<2: #若base輸入值不符合範圍，輸出error
             return "error"
 
         tmp=dec%base
