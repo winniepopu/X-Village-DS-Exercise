@@ -1,3 +1,4 @@
+## 將十進位轉任何進位
 from lib.stack import Stack
 
 def base_converter (dec, base):
@@ -5,7 +6,7 @@ def base_converter (dec, base):
     s=Stack()
 
     while dec!=0:
-        if base>16 or base<2: //若base輸入值不符合範圍，輸出error
+        if base>16 or base<2: #若base輸入值不符合範圍，輸出error
             return "error"
 
         tmp=dec%base
